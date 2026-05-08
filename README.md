@@ -5,7 +5,15 @@ CLI tool to convert between **query strings** and **JSON**. Supports nesting, ar
 ## Install
 
 ```bash
-npm install && npm link
+git clone https://github.com/Shaikh-Khizer/qs-tool.git
+cd qs-tool
+```
+## Set up
+```bash
+npm install
+npm test
+npm link
+
 ```
 
 Requires Node.js >= 16.
