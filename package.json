@@ -1,0 +1,30 @@
+{
+  "name": "qsj",
+  "version": "1.0.0",
+  "description": "Convert between query strings and JSON with automatic format detection",
+  "main": "lib/index.js",
+  "bin": {
+    "qsj": "./bin/qsj.js"
+  },
+  "scripts": {
+    "test": "node bin/qsj.js --help"
+  },
+  "keywords": [
+    "querystring",
+    "json",
+    "cli",
+    "qs",
+    "converter",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "qs": "^6.11.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
